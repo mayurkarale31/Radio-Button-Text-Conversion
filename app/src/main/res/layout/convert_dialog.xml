@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="350dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtText"
+        android:textSize="50sp"
+        android:hint="Enter text here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/rbUppar"
+        android:text="Uppar Case"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+    </RadioButton>
+    <RadioButton
+        android:id="@+id/rbLower"
+        android:text="Lower Case"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+    </RadioButton>
+    <RadioButton
+        android:id="@+id/rbInitCap"
+        android:text="InitCap Case"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+    </RadioButton>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/btnCheck"
+        android:text="Reverse"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:text="Okay"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp">
+    </Button>
+
+</LinearLayout>
